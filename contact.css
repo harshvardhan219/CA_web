@@ -157,6 +157,53 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
     }
 }
 
+
+
+input.form-control:focus,
+input.form-control:active {
+  outline: none;
+  border-color: #cccccc;
+  box-shadow: none;
+}
+
+.bg {
+  background-color: #ff8021;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-container {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+.jumb {
+  background-image: url('../images/jumb-img.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 4rem;
+  opacity: 0.9;
+  /* background-attachment: fixed; */
+}
+
+.jumb-content {
+  color: white;
+  margin-top: 4rem;
+}
+
+.custom-container {
+  margin-bottom: 3rem;
+}
+
+
 /*footer*/
 
 footer {
